@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(https://countryrebel.com/wp-content/uploads/2018/04/ChuckNorris.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    font-size: 30px;
+    background-color: grey;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background:rgba(19, 15, 64, 0.5);
+    border-radius: 6px; 
+    border: 2px solid;
+}
+
+button:hover {
+    cursor: pointer;
+}
+p {
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+#joke-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50vw;
+    margin-top: 60vh;
+    background-color: rgba(83, 92, 104, 0.9);
+    color: white;
+    border-radius: 6px; 
+}
